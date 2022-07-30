@@ -1,4 +1,4 @@
-DROP TABLE "Mond";
+DROP TABLE IF EXISTS "Mond";
 
 CREATE TABLE "Mond" (
   "Name" varchar(45) NOT NULL,
