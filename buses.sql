@@ -1,3 +1,9 @@
+PRAGMA synchronous = OFF;
+
+PRAGMA journal_mode = MEMORY;
+
+BEGIN TRANSACTION;
+
 CREATE TABLE
   `stops` (
     `id` integer NOT NULL,
@@ -1443,3 +1449,5 @@ VALUES
   ('VL2', 'VL', 4, 10);
 
 CREATE INDEX "idx_route_stop" ON "route" (`stop`);
+
+END TRANSACTION;
