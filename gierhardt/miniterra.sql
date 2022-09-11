@@ -1,5 +1,4 @@
 -- http://www.gierhardt.de/informatik/Datenbanken/SQLDateien/miniterra.sql
-
 -- phpMyAdmin SQL Dump
 -- version 3.1.3.1
 -- http://www.phpmyadmin.net
